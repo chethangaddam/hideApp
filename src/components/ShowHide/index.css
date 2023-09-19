@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.background-main {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+  color: #ffffff;
+}
+
+.button {
+  color: #dd1264;
+  background-color: #ffffff;
+  border: 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.name-container {
+  height: 100px;
+  width: 300px;
+  background-color: #fddddb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name-cards {
+  display: flex;
+  justify-content: space-around;
+}
